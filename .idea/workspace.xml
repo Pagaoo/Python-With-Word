@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4183dbd2-f3fe-4a18-b935-8718721aed47" name="Default Changelist" comment="Python with word">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo.docx" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612818663482</updated>
-      <workItem from="1612818674432" duration="4411000" />
+      <workItem from="1612818674432" duration="5622000" />
     </task>
     <task id="LOCAL-00001" summary="Python with word">
       <created>1612821210607</created>
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612822324378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Python with word">
+      <created>1612823314176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612823314176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
