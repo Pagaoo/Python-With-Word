@@ -3,7 +3,7 @@ from docx.shared import Inches
 
 documento = Document()  # Criando um documento
 
-documento.add_heading('Titulo', 0)  # Adiciona titulo ao documento
+documento.add_heading('Titulo', 0)  # Adiciona titulo ao documento e o número é o nivel de identação de 0-9
 
 p = documento.add_paragraph('Um paragráfo aleatório ')
 p.add_run('Negrito').bold = True
