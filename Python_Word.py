@@ -1,5 +1,5 @@
 from docx import Document
-from docx.shared import Inches
+from docx.shared import Inches, Pt, RGBColor
 
 documento = Document()  # Criando um documento
 
@@ -9,6 +9,12 @@ p = documento.add_paragraph('Um paragráfo aleatório ')
 p.add_run('Negrito').bold = True  # Adiciona texto no final do paragráfo
 p.add_run(' E ')
 p.add_run('Italico').italic = True
+
+run = p.add_run('Estilizado')
+fonte = run.font
+fonte.name = 'Corbel'
+fonte.size = Pt(40)
+fonte.color.rgb = RGBColor(255, 0, 0)
 
 documento.add_heading('Sub-titulo, nivel 1', level=1)
 documento.add_paragraph('Quote', style='Intense Quote')
