@@ -6,7 +6,7 @@ documento = Document()  # Criando um documento
 documento.add_heading('Titulo', 0)  # Adiciona titulo ao documento e o número é o nivel de identação de 0-9
 
 p = documento.add_paragraph('Um paragráfo aleatório ')
-p.add_run('Negrito').bold = True
+p.add_run('Negrito').bold = True  # Adiciona texto no final do paragráfo
 p.add_run(' E ')
 p.add_run('Italico').italic = True
 
