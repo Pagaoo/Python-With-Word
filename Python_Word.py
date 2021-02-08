@@ -20,6 +20,10 @@ documento.add_paragraph(
     'Primeiro item na lista numerada', style='List Number'
 )
 
+documento.add_paragraph(
+    'Segundo item na lista numerada', style='List Number'
+)
+
 documento.add_picture('Xiao.jpg', width=Inches(1.25))
 
 # Criação de uma tupla com items da tabela
