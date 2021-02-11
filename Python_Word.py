@@ -1,5 +1,6 @@
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
+from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
 documento = Document()  # Criando um documento
 
@@ -10,7 +11,8 @@ p.add_run('Negrito').bold = True  # Adiciona texto no final do paragráfo
 p.add_run(' E ')
 p.add_run('Italico').italic = True
 
-run = p.add_run('Estilizado')
+run = p.add_run('Estilizado')  # Texto estilizado
+p.paragraph_format.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER  # Alinha o p no centro do word
 fonte = run.font
 fonte.name = 'Corbel'
 fonte.size = Pt(40)
