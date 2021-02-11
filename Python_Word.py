@@ -2,6 +2,7 @@ from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
+
 documento = Document()  # Criando um documento
 
 documento.add_heading('Titulo', 0)  # Adiciona titulo ao documento e o número é o nivel de identação de 0-9
@@ -32,7 +33,7 @@ documento.add_paragraph(
     'Segundo item na lista numerada', style='List Number'
 )
 
-documento.add_picture('Xiao.jpg', width=Inches(1.25))
+documento.add_picture('Xiao.jpg', width=Inches(2))
 
 # Criação de uma tupla com items da tabela
 records = (
